@@ -1,0 +1,87 @@
+body {
+    font-size: 30px;
+}
+table{
+    width: 50%;
+    margin: 3px auto;
+    border-collapse: collapse;
+    text-align: left;
+    background: #5b6574;
+}
+tr {
+    border-bottom: 3px solid #cbcbcb;
+}
+th, td{
+    border: none;
+    height: 30px;
+    padding: 7px;
+}
+tr:hover {
+    background-color: #FFFFFF;
+}
+
+form{
+    width: 10cm;
+    margin: 10px auto;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 2%;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+
+}
+
+.input-group {
+
+}
+ input {
+border: double;
+height:25px;
+}
+.inputg {
+    margin: 10px 0px 10px 0px;
+    display: inline-block;
+    text-align: left;
+    margin: 7px auto;
+    height: 72%;
+    width: 60%;
+    padding: 30px;
+    font-size:20px;
+    border-radius: 5px;
+    border: 3px solid gray;
+}
+.btn {
+    padding: 10px;
+    width: 30%;
+    font-size: 15px;
+    color: white;
+    background: #435165;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    background: #2E8B57;
+    color: white;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 2px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #435165;
+}
+.msg {
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}
